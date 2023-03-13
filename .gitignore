@@ -1,0 +1,44 @@
+# Laravel-specific files
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Vue.js-specific files
+/dist
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Compiled files
+*.log
+*.sqlite
+*.sqlite3
+*.xml
+*.yml
+*.env
+*.env.*
+*.env.local
+.env.php
+.env.testing
+.env.dusk.local
+.env.behat
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+.idea/
+.project
+.sass-cache/
+.npm/
+yarn.lock
+.env.local.php
+.env.local.php.example
+!*.css
+!*.js
